@@ -49,7 +49,7 @@ const BookingModal = ({ openBooking, handleBookingClose, booking, date, setBooki
         }
         // console.log(appointment);
         //send to the server
-        fetch('http://localhost:5000/appointments', {
+        fetch('https://obscure-everglades-88336.herokuapp.com/appointments', {
             method: 'POST',
             headers: {
                 'content-type':'application/json'
